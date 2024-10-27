@@ -1,8 +1,6 @@
 # Importar TensorFlow y pandas
 import tensorflow as tf
 import pandas as pd
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 # Cargar el dataset
 dataset = pd.read_csv("dataset.csv")

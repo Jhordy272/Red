@@ -13,7 +13,7 @@ y_train = dataset.iloc[:, 8:].values  # Columnas de salida (Proteínas, Carbohid
 
 # Definir el modelo
 model = tf.keras.models.Sequential([
-    tf.keras.layers.Dense(64, input_dim=8, activation='relu'),  # Ajustar input_dim a la cantidad de características
+    tf.keras.layers.Dense(64, input_dim=8, activation='relu'),
     tf.keras.layers.Dense(128, activation='relu'),
     tf.keras.layers.Dense(64, activation='relu'),
     tf.keras.layers.Dense(4, activation='linear')  # 4 salidas para proteínas, carbohidratos, grasas, calorías

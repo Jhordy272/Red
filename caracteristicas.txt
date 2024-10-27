@@ -1,0 +1,45 @@
+1. Edad
+Descripción: Rango de edad de la persona que está utilizando la aplicación para recibir recomendaciones de dieta.
+Valores: Se espera que la edad esté en el rango de 18 a 60 años. No se especifica un formato particular, pero generalmente se ingresaría como un número entero (por ejemplo, 25 para 25 años).
+2. Sexo
+Descripción: Se refiere al género de la persona.
+Valores:
+0: Masculino
+1: Femenino
+Nota: En algunos contextos, podrías usar más valores para incluir otros géneros, pero en este caso se simplifica a dos.
+3. Peso
+Descripción: El peso corporal de la persona.
+Valores: Se expresa en kilogramos (kg). Por ejemplo, un peso de 70 significa 70 kg.
+4. Altura
+Descripción: La altura de la persona.
+Valores: Se expresa en centímetros (cm). Por ejemplo, una altura de 175 significa 175 cm.
+5. Actividad Física
+Descripción: Se refiere al nivel de actividad física de la persona.
+Valores:
+1: Sedentario (poca o ninguna actividad física)
+2: Moderadamente activo (ejercicio ligero a moderado)
+3: Activo (ejercicio intenso o deportes regulares)
+Nota: Esta clasificación ayuda a personalizar las recomendaciones dietéticas basadas en el nivel de gasto energético.
+6. Objetivo
+Descripción: El objetivo nutricional de la persona.
+Valores:
+0: Pérdida de peso (la persona quiere reducir su peso corporal)
+1: Mantenimiento (la persona desea mantener su peso actual)
+2: Ganancia de músculo (la persona desea aumentar su masa muscular)
+Nota: Este valor ayuda a personalizar las recomendaciones de calorías y macronutrientes.
+7. Restricciones
+Descripción: Códigos que representan diferentes tipos de restricciones dietéticas que una persona puede tener.
+Valores: Por ejemplo:
+0: Sin restricciones
+1: Vegetariano
+2: Vegano
+3: Sin gluten
+4: Sin lácteos
+Nota: Estos códigos permiten adaptar la dieta a las necesidades y preferencias personales.
+8. Preferencia
+Descripción: Se refiere a la preferencia de la persona sobre la distribución de macronutrientes en su dieta (proteínas, carbohidratos y grasas).
+Valores: Podrías definirlo como:
+0: Preferencia alta en carbohidratos
+1: Preferencia balanceada
+2: Preferencia alta en proteínas
+Nota: Esto permite personalizar las recomendaciones nutricionales para que se alineen con el enfoque dietético deseado.
